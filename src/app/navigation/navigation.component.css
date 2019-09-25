@@ -6,7 +6,7 @@ light-gray: rgb(170, 170, 170); */
      margin-right: 5%;
 }
 
-    .workside a {
+    .navigation a {
         color: #131618;
     }
    
@@ -35,15 +35,12 @@ light-gray: rgb(170, 170, 170); */
    }
         #header {
            animation-duration: 3s;
-          animation-name: slidein;
+        animation-name: slidein;
           
         }
-      
-
-      
         .navbar {
           animation-duration: 1s;
-          animation-name: slidein;
+          
           animation-iteration-count: 1;
           animation-direction: alternate;
         }
@@ -72,4 +69,44 @@ light-gray: rgb(170, 170, 170); */
           font-family:Arial, sans-serif; font-size: 12px;
         }
         h1    { font-family:georgia, times, serif; font-size: 30px; font-weight: normal; color: #191919;}
-        .main		{ width:100%; min-height: 450px;}
+
+        @media (max-width: 1150px) {
+          #header {
+                               
+                        margin-top: -20px;
+          }
+        }
+      
+
+        @media (max-width: 990px) {
+          #header {
+                               
+            margin-top: 0px;
+}
+          #header img {
+            
+            padding-left: 40px;
+          }
+          .navbar-mobile ul {
+            background-color: #131618;
+            color: aliceblue;
+            margin-top: -60px;
+            background-color: black;
+            color: azure;
+              width: 250px;
+              display:inline-block;
+            
+          }
+          .navbar-mobile li {
+            background-color: #131618;
+            color: aliceblue;
+           
+            
+          }
+          .navbar-mobile a {
+            background-color: #576168;
+            color: aliceblue;
+                     
+            
+          }
+         }
