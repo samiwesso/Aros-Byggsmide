@@ -7,7 +7,7 @@ light-gray: rgb(170, 170, 170); */
 }
 
     .workside a {
-        color: #263238;
+        color: #131618;
     }
    
         
@@ -16,7 +16,7 @@ light-gray: rgb(170, 170, 170); */
       }
         
      #header li {
-        background-color: #fcfcfc;
+        background-color: #fcfcfc79;
         margin-top: 1%;
      }
       
@@ -67,3 +67,9 @@ light-gray: rgb(170, 170, 170); */
          transition: 0.65s;
          
         }
+
+        p {
+          font-family:Arial, sans-serif; font-size: 12px;
+        }
+        h1    { font-family:georgia, times, serif; font-size: 30px; font-weight: normal; color: #191919;}
+        .main		{ width:100%; min-height: 450px;}
